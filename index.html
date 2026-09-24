@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rona Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Rona Salsabila Portofolio</h1>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="profile-pic">
+                <img src="images/profile.jpg" alt="Profile Photo">
+            </div>
+            <div class="hero-text">
+                <h2>Helloo, Saya <span>Rona Salsabila Gita Pasya</span></h2>
+                <p class="subtitle">
+                    Mahasiswa | Organisasi | Perkuliahan
+                </p>
+                <div class="hero-buttons">
+                    <a href="#certificates" class="btn primary-btn">Lihat Portofolio</a>
+                    <a href="#about" class="btn secondary-btn">Tentang Saya</a>                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-left">
+                <h2>About Me</h2>
+                <p>
+                    Halo! Perkenalkan, saya Rona Salsabila Gita Pasya, mahasiswa Teknologi Informasi di Fakultas Ilmu Komputer, Universitas Jember.
+                    Saya senang mempelajari hal-hal baru di dunia teknologi, khususnya di bidang pengembangan web. 
+                    Selain kuliah, saya juga cukup aktif berorganisasi, yang membuat saya terbiasa berdiskusi, bekerja sama dengan banyak orang, dan mencari jalan keluar ketika menghadapi masalah yang tidak sederhana.
+                    Bagi saya, belajar tidak cukup hanya lewat teori saya ingin terus mempraktikkannya lewat proyek-proyek nyata. 
+                    Ke depannya, saya berharap bisa membangun produk digital yang tidak hanya berfungsi dengan baik, tapi juga benar-benar bermanfaat dan nyaman digunakan oleh orang lain.
+                </p>
+            </div>
+            
+            <div class="about-right">
+                <div class="card">
+                    <h3>Detail</h3>
+                    <p><strong>Email :</strong> salsapasya19@gmail.com</p>
+                    <p><strong>Instagram :</strong> salsapasyaaa</p>
+                    <p><strong>LinkedIn :</strong> Rona Salsabila Gita Pasya</p>
+                    <p><strong>Lokasi :</strong> Jember, Indonesia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates">
+        <h2>Certificates & Experience</h2>
+            <div class="cert-list">
+                <div class="cert-card">
+                    <img src="images/skripsitalk.png" alt="Sertifikat SkripsiTalk 2026">
+                    <h3>Panitia Event SkripsiTalk HIMATIF 2026</h3>
+                    <p>Anggota Divisi Hubungan Masyarakat</p>
+                </div>
+
+                <div class="cert-card">
+                    <img src="images/diesgreet.jpeg" alt="Sertifikat Diesgreet HIMATIF 2026">
+                    <h3>Panitia Event Diesgreet HIMATIF 2026</h3>
+                    <p>Anggota Divisi Hubungan Masyarakat</p>
+                </div>
+
+                <div class="cert-card">
+                    <img src="images/cgtk.png" alt="Sertifikat CGTK 2025">
+                    <h3>Panitia Event CGTK 2025</h3>
+                    <p>Sekretaris II</p>
+                </div>
+            </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-card">
+                    <h3>Entropin - Algoritma Pemrograman & Sistem Basis Data</h3>
+                    <p>
+                        ENTROPIN adalah sistem distribusi digital berbasis Python dan PostgreSQL yang dirancang untuk memodernisasi rantai pasok UMKM Agroindustri dan petani kecil di Kota/Kabupaten Jember. 
+                        Proyek ini dikembangkan sebagai penerapan mata kuliah Algoritma dan Pemrograman untuk mengeliminasi pencatatan rantai pasok manual yang masih bergantung pada komunikasi lisan, buku fisik, dan spreadsheet terpisah.
+                    </p>
+                </div>
+                
+                <div class="project-card">
+                    <h3>EcoDrive - Pemrograman Berorientasi Obyek & Pemrograman SQL</h3>
+                    <p>
+                        EcoDrive adalah sistem informasi manajemen rental kendaraan listrik (Electric Vehicle) terintegrasi yang dirancang untuk mendigitalisasi dan mengoptimalkan operasional penyewaan kendaraan ramah lingkungan. 
+                        Ditempatkan sebagai solusi transportasi modern, sistem ini dikembangkan menggunakan bahasa pemrograman C# dengan konsep Object-Oriented Programming (OOP) dan database PostgreSQL.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact" class="contact section">
+    <div class="container contact-inner reveal">
+        <h2>Kontak</h2>
+        <p>Ingin bekerja bersama atau bertanya? Silahkan kirim pesan singkat.</p>
+        <form id="contact-form" class="contact-form">
+            <input type="text" name="name" placeholder="Nama" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea name="message" rows="5" placeholder="Pesan" required></textarea>
+            <button type="submit" class="btn primary">Kirim</button>
+        </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Rona Salsabila Gita Pasya | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
