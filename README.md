@@ -6,11 +6,11 @@ Proyek ini merupakan tugas praktikum dengan membuat website portofolio sederhana
 Lihat tampilan live website: https://slicing-web-portofolio-ronasalsabila.netlify.app/
 
 ## Screenshot Tampilan
-| [Desktop View](images/desktop.jpeg) | [Mobile View](images/mobile.jpeg) |
+| ![Desktop View](images/desktop.jpeg) | ![Mobile View](images/mobile.jpeg) |
 
 ## Teknologi yang Digunakan
 - **HTML5**
-- **CSS3 
+- **CSS3** 
 - **JavaScript (DOM)
 
 ## Fitur Utama
