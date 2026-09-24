@@ -11,7 +11,7 @@ Lihat tampilan live website: https://slicing-web-portofolio-ronasalsabila.netlif
 ## Teknologi yang Digunakan
 - **HTML5**
 - **CSS3** 
-- **JavaScript (DOM)
+- **JavaScript (DOM)**
 
 ## Fitur Utama
 - **Desain Responsif**: Tampilan menyesuaikan dengan rapi di perangkat Mobile, Tablet, dan Desktop.
